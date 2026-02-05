@@ -33,7 +33,7 @@ const inventario = [
     { nombre: "Tanque de Combustible", tipo: "combustible", valor: 15, cantidad: 2 },
     { nombre: "Bebida Energética", tipo: "oxigeno", valor: 10, cantidad: 3 },
     { nombre: "Herramienta Multiuso", tipo: "reparacion", valor: 5, cantidad: 5 },
-    { nombre: "Nitro", tipo: "nitro", valor: 500, cantidad: 1 }
+    { nombre: "Nitro", tipo: "nitro", valor: 800, cantidad: 1 }
 ];
 
 let tripulacion = [];
@@ -131,7 +131,7 @@ window.usarItem = function (indice) {
 
         // Lógica específica por tipo de ítem
         if (item.tipo === "nitro") {
-            nave.distanciaRecorrida += item.valor; // Avanza el doble (200km)
+            nave.distanciaRecorrida += item.valor; // Avanza el doble (500km)
             nave.salud = Math.floor(nave.salud * 0.5); // Reduce salud al 50%
             nave.combustible = Math.floor(nave.combustible * 0.3); // Reduce combustible al 30% (pierde 70%)
             alert(`🔥 ¡NITRO ACTIVADO!\n🚀 Distancia: +${item.valor}km\n⚠️ Daños en casco (Salud 50%)\n⛽ Combustible quemado (Queda 30%)`);
@@ -170,7 +170,8 @@ function procesarViaje() {
     let consumo = Math.floor(Math.random() * 15) + 5;
 
     nave.combustible -= consumo;
-    nave.distanciaRecorrida += 100; // Avanzamos hacia el objetivo
+    let avance = Math.floor(Math.random() * 201) + 300; // Fluctúa entre 300 y 500 km
+    nave.distanciaRecorrida += avance;
     nave.oxigeno -= 5;
 
     if (Math.random() > 0.7) {
@@ -244,4 +245,4 @@ function configurarJuego(nombre, rol) {
     renderizarInterfaz();
 }
 
-setTimeout(iniciar, 500);
+setTimeout(iniciar, 5000);

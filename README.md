@@ -1,10 +1,7 @@
 
 <div align="center">
-  <!-- Pega aquí el link de tu video -->
-  <a href="URL_DEL_VIDEO">
-    <img src="https://img.youtube.com/vi/ID_DEL_VIDEO/0.jpg" alt="Demo del Proyecto" width="600">
-  </a>
-  <p><em>(Haz clic en la imagen para ver el demo)</em></p>
+  <video src="video/Muestra_space.mp4" controls width="600" title="Demo del Proyecto"></video>
+  <p><em>(Si el video no carga, <a href="video/Muestra_space.mp4">haz clic aquí para verlo</a>)</em></p>
 </div>
 
 # 🚀 Simulador Espacial - Proyecto Módulo 3
