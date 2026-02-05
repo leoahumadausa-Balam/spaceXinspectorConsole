@@ -1,11 +1,5 @@
 <div align="center">
-  <!-- 
-    1. Ve a "Issues" en tu repo de GitHub.
-    2. Crea una "New Issue" y arrastra tu video ahí.
-    3. Copia el link que se genera (ej: https://github.com/.../assets/...)
-    4. Pégalo abajo en el 'src':
-  -->
-  <video src="PEGAR_AQUI_EL_LINK_GENERADO_EN_GITHUB" controls width="100%" title="Demo del Proyecto"></video>
+  https://github.com/user-attachments/assets/42df6788-9459-49b9-97e3-32d37be98b84
 </div>
 
 # 🚀 Simulador Espacial - Proyecto Módulo 3
