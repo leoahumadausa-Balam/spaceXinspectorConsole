@@ -1,6 +1,6 @@
-<div align="center">
-  https://github.com/user-attachments/assets/42df6788-9459-49b9-97e3-32d37be98b84
-</div>
+
+https://github.com/user-attachments/assets/42df6788-9459-49b9-97e3-32d37be98b84
+
 
 # 🚀 Simulador Espacial - Proyecto Módulo 3
 
